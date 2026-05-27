@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'link.e4mc'
+version = '0.1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "net.i2p.crypto:eddsa:0.3.0"
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+compileJava {
+    sourceCompatibility = 8
+    targetCompatibility = 8
+}
+
+test {
+    useJUnitPlatform()
+}
