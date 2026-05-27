@@ -6,7 +6,7 @@ DISCLAIMER: this is not audited. I don't have any formal cryptography training. 
 
 ## Releases
 
-jars are released on GitHub with sigsum proofs by the following key:
+jars are released on GitHub with sigsum proofs(policy `sigsum-generic-2025-1`) by the following key:
 ```
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGWCM6B4AyLu9JwLGsIp5iPpDDPqBJ6ssykybTxI+Lse
 ```
